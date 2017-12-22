@@ -1,0 +1,60 @@
+body{
+  background-image: url("images/clouds.gif");
+  font-family: 'Josefin Sans';
+
+}
+
+ul li:before {
+		content: "♥";
+    font-size: 60%;
+}
+ul li:after {
+		content: "♥";
+    font-size: 60%;
+}
+
+
+.navlist li{
+    display: inline;
+    list-style-type:
+    font-size: 150%;
+    margin: auto;
+}
+
+.navlist ul{
+  margin: auto;
+}
+
+
+
+nav{
+  padding-top: 0.5vw;
+  background-color: white;
+  padding-bottom: 1vw;
+  margin: auto;
+  padding: 2vh 2vw 2vh 2vw
+
+
+}
+
+.navbar{
+  max-width: 200vw;
+  text-align: center;
+  box-shadow: 0px 10px 18px #666;
+  margin-bottom: 4vh;
+}
+
+h1{
+  font-family: 'Josefin Sans';
+  font-size: 700%;
+  margin: auto;
+
+}
+
+.content{
+    background-color: white;
+    box-shadow: 0px 10px 18px #666;
+    padding-bottom: 1vw;
+    margin: auto;
+    padding: 2vh 2vw 2vh 2vw
+}
