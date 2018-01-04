@@ -1,8 +1,9 @@
 <head>
   <title>Leah Eramo</title>
+  <link rel=StyleSheet href="assets/social-media-icons.css" type="text/css">
   <link rel=StyleSheet href="assets/base.css" type="text/css">
-  <link rel=StyleSheet href="assets/modals.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+  <link rel=StyleSheet href="assets/modal.css" type="text/css">
+
 </head>
 
 <body>
@@ -10,28 +11,103 @@
     <nav>
       <h1>Leah Eramo</h1>
       <ul class="navlist">
-        <li><a href="index.html">About Leah</a></li>
-        <li>Work Experience</li>
-        <li>Code Experience</li>
-        <li>Code Progress</li>
-        <li>Blog</li>
+        <li><a href="#about" name="modal">About Leah</a></li>
+        <li><a href="#cv" name="modal">CV</a></li>
+        <li><a href="#REA-journey" name="modal">My REA Journey</a></li>
+        <li><a href="#career-dev" name="modal">Career Development</a></li>
+        <li><a href="#volunteer" name="modal">Volunteer</a></li>
+        <li><a href="#story" name="modal">Personal Story of interest</a></li>
+        <li><a href="#social" name="modal">Social Media</a></li>
+
       </ul>
     </nav>
   </div>
   <div class="bookend">♥</div>
   <div class="content">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est laborum.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-    sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+    <ul>
+      <p><li><strong>Why are you interested?</strong></li>
+        A few reasons, I know I want to be a developer, I also want to mentor women in tech, I feel like if I’m successful in my own goals with in tech I will be better equipped to do so.</p>
+      <p><li><strong>What have you done to date in support of this career goal?</strong></li>
+        <ul>
+          <li>Applied for scholarships</li>
+          <li>Work with both a general mentor and code mentor</li>
+          <li>Studied Udemy courses</li>
+          <li>Attended rails girls/ devops</li>
+          <li>Mentored at rails girls/devops girls</li>
+        </ul></p>
+        <p><li><strong>Where do you see your developmental gaps?</strong></li>
+        I lack real life experience when it comes to development. I understand the basic principals of code but not how to use them in an large scale environment. Also my design and object oriented programming still needs some work.</p>
+        <p><li><strong>What is your long term plan? i.e. which role in the business?</strong></li>
+        Long term I’d love to be senior developer, even a lead dev.</p>
+        <p><li><strong>Is this already in your REA career plan?</strong></li>
+        Yes.</p>
+    </ul>
+
   </div>
   <div class="bookend">♥</div>
+
+  <!-- #modals -->
+  <!-- about -->
+  <div id="about" class="modalwindow">
+    <a href="#" class="close">X</a>
+      <h2>About Leah</h2>
+      <div class="modal-content">
+          <!-- Modal Window Content -->
+      </div>
+  </div>
+  <!-- CV -->
+  <div id="cv" class="modalwindow">
+    <a href="#" class="close">X</a>
+      <h2>My CV</h2>
+      <div class="modal-content">
+          <!-- Modal Window Content -->
+      </div>
+  </div>
+
+  <!-- REA-journey -->
+  <div id="REA-journey" class="modalwindow">
+    <a href="#" class="close">X</a>
+      <h2>My REA Journey</h2>
+      <div class="modal-content">
+          <!-- Modal Window Content -->
+      </div>
+  </div>
+
+  <!-- Career Development-->
+  <div id="career-dev" class="modalwindow">
+    <a href="#" class="close">X</a>
+      <h2>My Career Development</h2>
+      <div class="modal-content">
+          <!-- Modal Window Content -->
+      </div>
+  </div>
+
+  <!-- volunteer work -->
+  <div id="volunteer" class="modalwindow">
+    <a href="#" class="close">X</a>
+      <h2>My Volunteer Work</h2>
+      <div class="modal-content">
+          <!-- Modal Window Content -->
+      </div>
+  </div>
+
+  <!-- story of interest -->
+  <div id="story" class="modalwindow">
+    <a href="#" class="close">X</a>
+      <h2>My Story of Interest</h2>
+      <div class="modal-content">
+          <!-- Modal Window Content -->
+      </div>
+  </div>
+  <!-- social media -->
+  <div id="social" class="modalwindow">
+    <a href="#" class="close">X</a>
+      <h2>Social Media</h2>
+      <div class="modal-content">
+          <!-- Modal Window Content -->
+      </div>
+  </div>
 </body>
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="assets/scripts/modal.js"></script>

@@ -1,0 +1,21 @@
+.modalwindow {
+    position:fixed;
+    display:none;
+    z-index:9999;
+    background: #FFF;
+    border-style: solid;
+    border-color: #DDD;
+    padding: 6vh 5vw 6vh 5vw;
+    height: 45vh;
+    width: 70vw;
+    margin: auto;
+}
+.close {
+    float: right;
+    display: block;
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
