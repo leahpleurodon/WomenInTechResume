@@ -1,5 +1,6 @@
 $('a[name=modal]').click(function(e) {
     e.preventDefault();
+    $('.modalwindow').fadeOut(500);
     var id = $(this).attr('href');
     console.log(id);
     $(id).css('left',  '10vw')

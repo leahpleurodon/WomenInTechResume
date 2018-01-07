@@ -6,16 +6,47 @@
     border-style: solid;
     border-color: #DDD;
     padding: 6vh 5vw 6vh 5vw;
-    height: 45vh;
+    height: 50vh;
     width: 70vw;
     margin: auto;
 }
 .close {
     float: right;
     display: block;
-    padding: 10px;
+    padding: 1vw;
     color: #000;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
+}
+.modalwindow li:before {
+		content: "♥";
+    font-size: 60%;
+    color: #f9ada0;
+}
+.modalwindow li{
+  list-style-type: none;
+}
+.modalwindow ul{
+  padding: 0;
+}
+.modal-content {
+  height: 85%;
+  overflow: scroll;
+  line-height: 6vh
+}
+
+.indent li{
+  padding-left: 2vw;
+}
+
+.indent2 li{
+  padding-left: 4vw;
+}
+
+.modal-image{
+  max-height: 100%;
+  max-width: 50%;
+  display: block;
+  margin: auto;
 }
